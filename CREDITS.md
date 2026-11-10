@@ -1,0 +1,22 @@
+- snd/notif1.mp3: File:Notification_Gravity_Sound.wav / Gravity Sound / CC BY 4.0
+- snd/notif2.mp3: File:Notification_2_Gravity_Sound.wav / Gravity Sound / CC BY 4.0
+- snd/notif3.mp3: File:Notification_4_Gravity_Sound.wav / Gravity Sound / CC BY 4.0
+- snd/notif4.mp3: File:Segnale_audio_di_arrivo_SMS.ogg (先頭) / Pracchia-78 / Public domain
+- snd/buzz1.mp3: File:Mobile_phone_interference.ogg (切り出し) / Ezwa / Public domain
+- snd/buzz2.mp3: File:Mobile_phone_interference.ogg (切り出し) / Ezwa / Public domain
+- snd/buzz3.mp3: File:Mobile_phone_interference.ogg (切り出し) / Ezwa / Public domain
+- snd/ring.mp3: File:JA_Ringback_tone_by_au.ogg (先頭7秒) / KDDI Corporation / Public domain
+- snd/hold.mp3: Elevator Music 2 / Pro Sensory / CC0
+- snd/amb_clock.mp3: File:Clock ticking.ogg / natalie / Public domain
+- snd/pop1.mp3: 3 Pop Sounds / wubitog / CC0
+- snd/pop2.mp3: 3 Pop Sounds / wubitog / CC0
+- snd/pop3.mp3: 3 Pop Sounds / wubitog / CC0
+- snd/crack1.mp3: 75 CC0 breaking / falling / hit sfx / rubberduck / CC0
+- snd/crack2.mp3: 100 CC0 SFX / rubberduck / CC0
+- snd/open.mp3: Interface Sounds / Kenney / CC0
+- snd/off.mp3: Interface Sounds / Kenney / CC0
+- snd/ok.mp3: Interface Sounds / Kenney / CC0
+- snd/paper.mp3: 100 CC0 SFX / rubberduck / CC0
+- snd/j_low.mp3: 85 Short music jingles / Kenney / CC0
+- snd/j_mid.mp3: 85 Short music jingles / Kenney / CC0
+- snd/j_high.mp3: 85 Short music jingles / Kenney / CC0
