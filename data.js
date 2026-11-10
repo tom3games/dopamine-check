@@ -110,7 +110,7 @@ window.DATA = (function () {
     upnow: { cat: 'sys', app: 'set', ja: ['再起動します', 'しません'], en: ['Restarting', 'Not really'] },
     upnight: { cat: 'sys', app: 'set', ja: ['今夜にしました', 'もう今夜です'], en: ['Scheduled for tonight', 'It is tonight already'] },
     slot: { cat: 'trap', app: 'set', ja: ['ここ', 'でした'], en: ['Here', 'Yep, here'] },
-    fake: { cat: 'fake', app: 'set', ja: ['診断終了', 'それも通知でした'], en: ['Test complete', 'That was a notification too'] },
+    fake: { cat: 'fake', app: 'set', ja: ['診断終了', 'と見せかけた通知でした'], en: ['Test complete', '...was just another notification'] },
     badge: { cat: 'app', app: 'set', ja: ['赤い丸', 'に負けました'], en: ['A red dot', 'beat you'] },
     clock: { cat: 'app', app: 'cal', ja: ['いまの時刻', '確かめたくなりましたね'], en: ['The time', 'You just had to check'] },
     sbar: { cat: 'empty', app: 'set', ja: ['上から', '何も出てきません'], en: ['From the top', 'Nothing comes down'] },

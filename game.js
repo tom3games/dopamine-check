@@ -384,7 +384,7 @@ function lose(k, el, x, y) {
       const tr = D.TRAP[k] || D.TRAP.empty
       if (!D.TRAP[k]) k = 'empty'
       app = tr.app || 'set'; cat = tr.cat
-      h = tr[lang][0]; b = tr[lang][1]; sub = h + (lang === 'ja' ? '' : ' ') + b
+      h = tr[lang][0]; b = tr[lang][1]; sub = h + (lang === 'ja' ? (/^[がをにとで]/.test(b) ? '' : '　') : ' ') + b
       const src = el && el.closest && el.closest('[data-k]')
       const txt = src && src !== phone && src.id !== 'fakeEnd' && src.id !== 'dimOv' && src.id !== 'black' && src.id !== 'call' ? src.textContent.trim().replace(/\s+/g, ' ') : ''
       const ja = lang === 'ja', shH = $('#shH').textContent
@@ -413,6 +413,7 @@ function lose(k, el, x, y) {
   o.innerHTML = `<div class="oh" style="${appBg(app)};${D.APPS[app].c[0] === '#ffffff' || D.APPS[app].c[0] === '#f2f2f2' ? 'color:#111' : ''}"><span class="bi" style="${appBg(app)}">${glyph(app)}</span>${esc(appName(app))}</div><div class="ob">${body}</div>`
   o.hidden = false
   Snd.play('open', { vol: 0.8, jitter: 0 })
+  setTimeout(() => { if (G.scene === 'open') Snd.play('pop', { vol: 0.7, rate: 0.85 }) }, 560)
   G.openT = 2.9
 }
 function finish() {

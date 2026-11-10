@@ -159,7 +159,7 @@ await t('偽の結果画面の「もう一度」を押すと「fake」（それ�
   const r = await p.evaluate(() => ({ txt: document.querySelector('#fakeEnd').innerText, bn: dc.state().banners }))
   expect(/検査 結果/.test(r.txt) && /ほぼ仏/.test(r.txt), r.txt)
   const xy = await xyOf(p, '#fakeEnd .again'); await p.mouse.click(xy.x, xy.y); const l = await lost(p); expect(l.k === 'fake', JSON.stringify(l))
-  const o = await p.evaluate(() => document.querySelector('#openApp').innerText); expect(/それも通知でした/.test(o), o); await finishOpen(p); return o.replace(/\n/g, ' ')
+  const o = await p.evaluate(() => document.querySelector('#openApp').innerText); expect(/見せかけた通知でした/.test(o), o); await finishOpen(p); return o.replace(/\n/g, ' ')
 })
 await t('偽の結果は30秒で崩れて「まだです」に戻る', async () => {
   await newRun(p, 25); await skip(p, 281); await p.waitForTimeout(1200)
